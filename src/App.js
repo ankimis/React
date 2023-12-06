@@ -24,6 +24,7 @@ export default function App() {
     }else{
       setmode('light');
       document.body.style.backgroundColor='white';
+
         showAlert("White mode has beeen enabled","success");
     }
   }
